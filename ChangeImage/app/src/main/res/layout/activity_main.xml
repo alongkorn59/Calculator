@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9da4">
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="162dp"
+        android:background="#aaf1ff" />
+
+    <Button
+        android:id="@+id/nextImage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageSwitcher"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="#c676b5f9"
+        android:onClick="nextImageButton"
+        android:text="Next Image"
+        android:textColor="#f26cd1"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="- Do You Like Cats? -"
+        android:textColor="#58a9ec"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
